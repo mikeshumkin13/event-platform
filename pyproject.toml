@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "event-platform"
+version = "0.1.0"
+description = ""
+authors = ["a12345 <shu.m2010@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^6.0.1"
+djangorestframework = "^3.16.1"
+python-dotenv = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
