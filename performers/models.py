@@ -20,4 +20,3 @@ class PerformerProfile(models.Model):
 
     def __str__(self) -> str:
         return f"{self.display_name} ({self.user.email})"
-
